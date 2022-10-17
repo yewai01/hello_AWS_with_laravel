@@ -1,0 +1,22 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/hello_AWS_with_laravel
+hooks:
+  # BeforeInstall:
+  #   - location: deploy/scripts/install_dependencies.sh
+  #     timeout: 300
+  #     runas: root
+  # AfterInstall:
+  #   - location: deploy/scripts/change_permissions.sh
+  #     timeout: 300
+  #     runas: root
+  # ApplicationStart:
+  #   - location: deploy/scripts/start_server.sh
+  #     timeout: 300
+  #     runas: root
+  # ApplicationStop:
+  #   - location: deploy/scripts/stop_server.sh
+  #     timeout: 300
+  #     runas: root
