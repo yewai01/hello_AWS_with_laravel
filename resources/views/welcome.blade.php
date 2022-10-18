@@ -41,7 +41,7 @@
                     <p style="
                         font-size: 40px;
                         color: red;
-                    ">Testing github actions and codeDeploy... finally work -_-</p>
+                    ">Testing github actions and codeDeploy... finally work develop branch</p>
                 </div>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
