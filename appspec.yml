@@ -9,7 +9,7 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: deploy/scripts/ok.sh
+    - location: deploy/scripts/change_permissions.sh
       timeout: 300
       runas: root
   # ApplicationStart:
