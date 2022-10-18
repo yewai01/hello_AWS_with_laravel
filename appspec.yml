@@ -4,10 +4,10 @@ files:
   - source: /
     destination: /var/www/html/hello_AWS_with_laravel
 hooks:
-  # BeforeInstall:
-  #   - location: deploy/scripts/install_dependencies.sh
-  #     timeout: 300
-  #     runas: root
+  BeforeInstall:
+    - location: deploy/scripts/delete_old.sh
+      timeout: 300
+      runas: root
   AfterInstall:
     - location: deploy/scripts/ok.sh
       timeout: 300
